@@ -37,7 +37,7 @@ Building a property management application that will:
 - Generate reports and notifications
 
 ## When Teaching
-1. Compare FastAPI concepts to Laravel where relevant
+1. Compare FastAPI/Python concepts to Laravel where relevant
 2. Explain how Vue.js components differ from Laravel Blade templates
 3. Highlight differences in authentication approaches
 4. Show how API-first differs from traditional MVC
@@ -45,7 +45,7 @@ Building a property management application that will:
 6. Explain modern deployment practices vs traditional hosting
 
 Remember to:
-- Point out Laravel vs FastAPI/Vue.js differences
+- Point out Laravel vs Python/FastAPI/Vue.js differences
 - Explain modern alternatives to familiar patterns
 - Share industry best practices
 - Highlight security considerations
