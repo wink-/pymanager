@@ -1,5 +1,7 @@
 from pydantic import BaseModel
 from typing import List, Optional
+from datetime import datetime
+from pydantic import EmailStr
 
 class RoomBase(BaseModel):
     name: str
@@ -50,7 +52,9 @@ class Site(SiteBase):
         from_attributes = True
 
 class UserBase(BaseModel):
-    email: str
+    email: EmailStr
+    first_name: str
+    last_name: str
 
 class UserCreate(UserBase):
     password: str
@@ -58,6 +62,8 @@ class UserCreate(UserBase):
 class User(UserBase):
     id: int
     is_active: bool
+    created_at: datetime
+    updated_at: datetime
     sites: List[Site] = []
 
     class Config:

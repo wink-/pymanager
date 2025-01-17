@@ -2,8 +2,10 @@ fastapi
 uvicorn
 sqlalchemy
 psycopg2-binary
-python-jose[cryptography]
-passlib[bcrypt]
 python-multipart
-pydantic
+pydantic[email]
 python-dotenv
+jinja2
+aiofiles
+itsdangerous
+starlette
